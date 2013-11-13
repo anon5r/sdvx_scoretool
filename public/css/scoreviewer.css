@@ -1,0 +1,291 @@
+.trackviewer_wrapper>*:first-child,
+.scoreviewer_wrapper>*:first-child
+{
+	margin-top: 0px;
+}
+.trackviewer_wrapper>*:last-child,
+.scoreviewer_wrapper>*:last-child
+{
+	margin-bottom: 0px;
+}
+
+.scoreviewer_content h1{
+	margin: 0px;
+	background: #2c3e50;
+	color: white;
+	border-left: none;
+	border-top: 15px solid;
+}
+.scoreviewer_content{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+.user_name{
+	display: none;
+}
+
+div.profile,
+div.medals,
+div.grades{
+	float: left;
+	width: 288px;
+}
+div.effect_stat_col {
+	float: left;
+	width: 220px;
+	margin-right: 26px;
+	overflow: visible;
+}
+div.effect_stat_col.disable {
+	opacity: 0.5;
+}
+div.effect_stat_col div.medals_stat,
+div.effect_stat_col div.grades_stat{
+	margin-top: 20px;
+}
+div.effect_stat_col.infinite {
+	margin-right: 0px;
+}
+.scoreviewer_content.track h1{
+	border: none; 
+}
+.scoreviewer_content.grades h1{
+	border-color: #3498db;
+}
+.scoreviewer_content.medals h1{
+	border-color: #2ecc71;
+}
+.scoreviewer_content.profile h1{
+	border-color: #f1c40f;
+}
+.scoreviewer_content.novice h1{
+	border-color: #3498db;
+}
+.scoreviewer_content.advanced h1{
+	border-color: #f1c40f;
+}
+.scoreviewer_content.exhaust h1{
+	border-color: #e74c3c;
+}
+.scoreviewer_content.infinite h1{
+	border-color: #2ecc71;
+}
+
+a.table_selector_button{
+	float: left;
+	background: #2c3e50;
+	color: white;
+	padding: 10px 20px 10px 20px;
+	font-weight: bold;
+	margin-right: 5px;
+	height: 20px;
+	cursor: pointer;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+a.table_selector_button.score{
+	background: #e74c3c;
+}
+a.table_selector_button.count{
+	background: #3498db;
+}
+a.table_selector_button.novice {
+	background: #3498db;
+}
+a.table_selector_button.advanced {
+	background: #f1c40f;
+}
+a.table_selector_button.exhaust {
+	background: #e74c3c;
+}
+a.table_selector_button.infinite {
+	background: #2ecc71;
+}
+a.table_selector_button.selected{
+	cursor: default;
+}
+a.table_selector_button.disable{
+	opacity: 0.5;
+}
+a.table_selector_button:not(.selected):hover{
+	opacity:0.5;
+}
+a.table_selector_button:not(.selected):active{
+	margin-top: 1px;
+	height: 19px;
+}
+
+div.diff_selector.score {
+	background: #e74c3c;
+}
+div.diff_selector.count {
+	background: #3498db;
+}
+div.diff_selector{
+	padding-top: 15px; 
+}
+div.diff_selector a{
+	box-shadow: 0px 0px 10px black; 
+}
+
+
+
+div.profile,
+div.medals{
+	margin-right: 48px;
+}
+
+div.profile table,
+div.medals table,
+div.grades table{
+	height: 200px;
+}
+
+table{
+	font-size: 0.8em;
+	border-collapse: collapse;
+	width: 100%;
+	border: none;
+}
+table thead *{
+	text-align: center;
+	padding: 5px;
+}
+table tbody tr>*{
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+table thead{
+	color:white;
+}
+table tbody td{
+	text-align: center;
+}
+
+table th{
+	white-space: nowrap;
+}
+table tbody th.title div.title_wrapper{
+	width: 238px;
+	overflow: hidden;
+	
+}
+table tbody th.title a{
+	color: inherit;
+}
+table tbody{
+	background: white;
+}
+table tbody tr:nth-child(even){
+	background: #ecf0f1;
+}
+table tbody tr:hover {
+	background: #fcf0f1;
+}
+table thead{
+	background: #2c3e50;
+} 
+table thead .title{
+	background: #2c3e50;
+} 
+table thead .novice{
+	background: #3498db;
+}
+table thead .advanced{
+	background: #f1c40f;
+}
+table thead .exhaust{
+	background: #e74c3c;
+}
+table thead .infinite{
+	background: #2ecc71;
+}
+table thead .you,
+table thead .all{
+	background: white;
+	color: #2c3e50;
+}
+table tbody .medal{
+	text-transform: uppercase;
+	color: #34495e;
+}
+table tbody .medal.comp{
+	color: #2ecc71;
+}
+table tbody .medal.uc{
+	color: #e74c3c;
+}
+table tbody .medal.per{
+	color: #f1c40f;
+}
+
+table tbody .grade{
+	text-transform: uppercase;
+	color: #34495e;
+}
+table tbody .grade.d{
+}
+table tbody .grade.c{
+	color: #9b59b6;
+}
+table tbody .grade.b{
+	color: #3498db;
+}
+table tbody .grade.a{
+	color: #2ecc71;
+}
+table tbody .grade.aa{
+	color: #e74c3c
+}
+table tbody .grade.aaa{
+	color: #f1c40f;
+}
+table tbody .updated{
+	background: #ffffaa;
+}
+table tbody .previous,
+table thead .previous{
+	/*opacity: 0.7;*/
+}
+table tbody .plus{
+	color: #e74c3c;
+}
+table tbody .minus{
+	color: #3498db;
+}
+
+table tr.sort th a{
+/*	line-height: 0.8em;*/
+/*	font-size: 20px;*/
+	padding-right: 0px;
+	padding-left: 0px;
+	cursor: pointer;
+}
+
+.track table thead tr.difficulty{
+	font-size: 18px;
+}
+.track table thead tr.average th{
+	padding: 0px;
+}
+.track table tbody th{
+	white-space: nowrap;
+	text-align: left;
+}
+
+div.chart_legend{
+	display: none;
+	position: absolute;
+	z-index: 100000000000;
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	padding: 0px 4px;
+	margin-top: -22px;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}

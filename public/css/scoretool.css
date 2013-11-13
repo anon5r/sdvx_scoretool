@@ -1,0 +1,27 @@
+.scoretool_title{
+	color: white;
+}
+.direct_access{
+	color: gray;
+}
+.scoretool_menu .bwp_logger{
+	color: white;
+	height: 300px;
+	margin-bottom: inherit;
+}
+.content_wrapper div.scoretool_menu{
+	text-align: center;
+	position: fixed;
+	width: 480px;
+	height: 400px;
+	left: 50%;
+	top: 50%;
+	margin-left: -240px;
+	margin-top: -200px;
+	overflow: hidden;
+}
+.scoretool_content{
+	margin-bottom: 20px;
+	display: block;
+	color: white;
+}
